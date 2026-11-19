@@ -1,0 +1,89 @@
+{
+ "read_date": "20 Nov 2026",
+ "sources": [
+  {
+   "n": 1,
+   "name": "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+   "url": "https://www.powerpyx.com/grand-theft-auto-vi-gta-6-trophy-guide-roadmap/",
+   "depth": "Full guide + meditation locations + 100% checklist",
+   "note": "Main guide source; roadmap and all key counts."
+  },
+  {
+   "n": 2,
+   "name": "Exophase — Official PS5 trophy list",
+   "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+   "depth": "Full list",
+   "note": "Official names, descriptions, grades + player percentages."
+  },
+  {
+   "n": 3,
+   "name": "PSNProfiles — GTA VI trophies",
+   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+   "depth": "Full list + key sections",
+   "note": "Official list + PSN count targets (e.g. 42 Shooting Range)."
+  },
+  {
+   "n": 4,
+   "name": "GTABase — GTA 6 trophy guide & 100% checklist",
+   "url": "https://www.gtabase.com/",
+   "depth": "Key sections",
+   "note": "100% checklist structure, 45/45/10 weights (single-source), 500 actions."
+  },
+  {
+   "n": 5,
+   "name": "OutputLag — GTA 6 Trophy List",
+   "url": "https://www.outputlag.com/",
+   "depth": "Key sections",
+   "note": "Only source firmly stating the Chapter 1 balcony meditation counts."
+  },
+  {
+   "n": 6,
+   "name": "KeenGamer — GTA 6 Trophy Guide & Platinum Roadmap",
+   "url": "https://www.keengamer.com/",
+   "depth": "Key sections",
+   "note": "Often echoes PowerPyx; used for activity and side-strand steps."
+  },
+  {
+   "n": 7,
+   "name": "eGamers — GTA 6 Trophy List",
+   "url": "https://www.egamers.io/",
+   "depth": "Key sections",
+   "note": "Reports the walkthrough author was unsure whether the balcony meditation counts."
+  },
+  {
+   "n": 8,
+   "name": "Push Square — GTA 6 Trophy Guide & Roadmap (WIP)",
+   "url": "https://www.pushsquare.com/",
+   "depth": "Key sections",
+   "note": "Lists no known missables at all; 300+ hour platinum estimate; 27 hidden (differs from official 28)."
+  },
+  {
+   "n": 9,
+   "name": "GamesRadar+ — GTA 6 trophy list",
+   "url": "https://www.gamesradar.com/",
+   "depth": "Search excerpt",
+   "note": "Editorial '[500 in total]' figure for Actions Speak Louder; Gamerscore figures are Xbox, not PS5."
+  },
+  {
+   "n": 10,
+   "name": "Official list (competition kit)",
+   "url": "https://make.fun/bounty/gta6-trophy-guide-01",
+   "depth": "Full list",
+   "note": "55 names, descriptions and grades as supplied in the kit."
+  },
+  {
+   "n": 11,
+   "name": "GTA Vibes — GTA 6 guides",
+   "url": "https://www.gtavibes.com/",
+   "depth": "Search excerpt",
+   "note": "Secondary source; used only where a second voice was needed."
+  },
+  {
+   "n": 12,
+   "name": "Game-Checklists — GTA 6 checklists",
+   "url": "https://game-checklists.com/",
+   "depth": "Key sections",
+   "note": "Flags the timed Yago race in Chapter 3 as a possible strand lock."
+  }
+ ]
+}

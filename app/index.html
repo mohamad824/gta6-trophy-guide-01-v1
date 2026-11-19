@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Neon Palm — GTA VI Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="monogram" aria-hidden="true">NP</div>
+    <div>
+      <h1>Neon Palm</h1>
+      <p class="subtitle">GTA VI Trophy Guide &amp; Tracker — Grand Theft Auto VI · PlayStation 5</p>
+    </div>
+  </div>
+  <div class="top-actions">
+    <span class="disclaimer">Unofficial fan guide — not affiliated with Rockstar Games.</span>
+    <button id="btn-export" type="button">Export</button>
+    <button id="btn-import" type="button">Import</button>
+    <label class="spoiler-toggle"><input type="checkbox" id="spoiler-toggle"> Spoilers off</label>
+    <span id="saved-status" class="saved">Saved in this browser</span>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Sections">
+  <a href="#/guide" data-view="guide" class="tab active">Guide &amp; Tracker</a>
+  <a href="#/roadmap" data-view="roadmap" class="tab">Roadmap to Platinum</a>
+  <a href="#/missables" data-view="missables" class="tab">Missables &amp; Watch</a>
+  <a href="#/sources" data-view="sources" class="tab">Sources</a>
+  <a href="#/save" data-view="save" class="tab">Spoilers &amp; Save</a>
+</nav>
+
+<section id="audit" class="audit" aria-label="Audit strip"></section>
+
+<main id="view"></main>
+
+<footer class="foot">
+  <p>Neon Palm — an unofficial fan guide. Not affiliated with Rockstar Games. Trophy names, descriptions and grades are the official list; all guide text is original, written 20 Nov 2026. Sources read 20 Nov 2026.</p>
+  <p>Platinum estimate: ~200 h (PowerPyx) / 300+ h (Push Square) · Difficulty 4/10 · 1 playthrough · 0 online · No mission replay.</p>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<input type="file" id="import-file" accept="application/json,.json" hidden>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

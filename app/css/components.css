@@ -1,0 +1,67 @@
+/* Neon Palm — components: chips, checklist, guide pane, counters, badges, tables, toast. */
+button{border:1px solid var(--amber);background:var(--amber);color:#1a1206;border-radius:7px;padding:6px 12px;font-weight:700;font-size:13px}
+button.ghost{background:transparent;color:var(--amber2)}
+button.small{padding:3px 9px;font-size:12px}
+.saved{font-size:12px;color:var(--green)}
+.spoiler-toggle{font-size:12px;color:var(--ink);display:flex;gap:5px;align-items:center}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.chip{border:1px solid var(--line);background:var(--bg2);color:var(--ink);border-radius:20px;padding:4px 10px;font-size:12px}
+.chip.active{background:var(--amber);color:#1a1206;border-color:var(--amber);font-weight:700}
+.searchrow{display:flex;gap:8px;margin-bottom:10px}
+.searchrow input,.searchrow select{flex:1;background:var(--bg2);border:1px solid var(--line);color:var(--ink);border-radius:7px;padding:7px 9px;font-size:13px}
+.searchrow select{flex:0 0 130px}
+.checkrow{display:flex;gap:6px;align-items:center;font-size:12px;color:var(--muted);margin-bottom:8px}
+.checkrow input{accent-color:var(--amber)}
+.progressbar{height:10px;background:var(--bg2);border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.progressbar i{display:block;height:100%;background:linear-gradient(90deg,var(--teal),var(--amber))}
+.tlist{list-style:none;margin:10px 0 0;padding:0;max-height:560px;overflow:auto}
+.tlist li{display:flex;gap:8px;align-items:flex-start;padding:7px 6px;border-top:1px solid var(--line);cursor:pointer;border-radius:6px}
+.tlist li:hover{background:var(--panel2)}
+.tlist li.selected{background:var(--panel2);outline:1px solid var(--amber)}
+.tlist li.earned .tname{text-decoration:line-through;color:var(--muted)}
+.tlist input{accent-color:var(--amber);margin-top:3px}
+.tname{font-weight:700;font-size:13px}
+.tmeta{font-size:11px;color:var(--muted)}
+.grade{display:inline-block;min-width:18px;text-align:center;border-radius:4px;padding:0 4px;font-size:11px;font-weight:800}
+.grade.platinum{background:#d9c8ff;color:#2a1a4d}.grade.gold{background:#f2c94c;color:#3a2c00}
+.grade.silver{background:#cfd8dc;color:#263238}.grade.bronze{background:#c98a5a;color:#2d1a08}
+.badge{display:inline-block;border-radius:20px;padding:2px 8px;font-size:11px;font-weight:700;margin:0 4px 4px 0}
+.badge.missable{background:#5a1d18;color:#ffb3ab;border:1px solid var(--red)}
+.badge.watch{background:var(--amber-bg);color:var(--amber2);border:1px solid var(--amber)}
+.badge.unconfirmed{background:#2c2c40;color:#c9c9ff;border:1px solid #8a8ac9}
+.badge.disagree{background:#3a2c10;color:var(--amber2);border:1px solid var(--amber)}
+.badge.single{background:#2c2c40;color:#c9c9ff;border:1px solid #8a8ac9}
+.badge.trust-green{background:var(--green-bg);color:var(--green)}
+.badge.trust-amber{background:var(--amber-bg);color:var(--amber2)}
+.guide-title{font-size:21px;color:var(--amber2)}
+.guide-desc{color:var(--muted);font-style:italic;margin:6px 0 10px}
+.steps{margin:10px 0;padding-left:22px}
+.steps li{margin-bottom:8px}
+.steps li::marker{font-weight:700;color:var(--amber)}
+.dispute{background:#3a1414;border:1px solid var(--red);border-radius:8px;padding:10px;margin:10px 0}
+.dispute h3{color:#ffb3ab;font-size:15px;margin-bottom:6px}
+.safeplay{background:var(--green-bg);border:1px solid var(--green);border-radius:8px;padding:10px;margin:10px 0}
+.safeplay h3{color:var(--green);font-size:15px;margin-bottom:6px}
+.counterbox{display:flex;align-items:center;gap:10px;background:var(--bg2);border:1px solid var(--line);border-radius:8px;padding:10px;margin:10px 0}
+.counterbox .num{font-size:20px;font-weight:800;color:var(--amber2)}
+.counterbox button{padding:4px 12px;font-size:16px}
+.srcitem{padding:8px 0;border-top:1px solid var(--line);font-size:12.5px}
+.srcitem:first-child{border-top:none}
+.srcitem b{color:var(--amber2)}
+.srcnum{display:inline-block;width:22px;height:22px;text-align:center;line-height:22px;border-radius:50%;background:var(--amber);color:#1a1206;font-weight:800;font-size:12px;margin-right:6px}
+.hiddenbox{background:var(--bg2);border:1px dashed var(--line);border-radius:8px;padding:16px;text-align:center;color:var(--muted)}
+table.matrix{border-collapse:collapse;width:100%;font-size:11px}
+table.matrix th,table.matrix td{border:1px solid var(--line);padding:3px 5px;text-align:center}
+table.matrix td:first-child,table.matrix th:first-child{text-align:left;min-width:170px}
+table.matrix td.hit{color:var(--green);font-weight:800}
+table.srctable{border-collapse:collapse;width:100%;font-size:12.5px}
+table.srctable th,table.srctable td{border:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+table.srctable th{background:var(--bg2);color:var(--amber2)}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--amber);color:#1a1206;
+  font-weight:700;padding:10px 18px;border-radius:8px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:50}
+.toast.show{opacity:1}
+pre.jsonbox{background:#081114;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:11px;overflow:auto;max-height:260px;color:#bfe8d8}
+.kv{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:6px 0;font-size:13px}
+.kv:first-child{border-top:none}
+.nextup{background:linear-gradient(90deg,#123038,#1a3a2a);border:1px solid var(--amber);border-radius:10px;padding:12px;margin-bottom:14px}
+.nextup h2{color:var(--amber2);font-size:17px}
